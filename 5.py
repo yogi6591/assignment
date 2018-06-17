@@ -1,4 +1,5 @@
 #Take a Input from user and check whether it is leap year or not.
+print("Take a Input from user and check whether it is leap year or not.\n")
 x=int(input("enter any year="))
 if (x%4==0):
 	print(x,"is a leap year")
@@ -8,6 +9,7 @@ print("\n******************\n")
 
 
 #Take length and breadth input from user and check whether the dimensions are of square or rectangle. 
+print("Take length and breadth input from user and check whether the dimensions are of square or rectangle.\n")
 x=int(input("enter the length="))
 y=int(input("enter the breadth="))
 if x==y:
@@ -18,6 +20,8 @@ print("\n******************\n")
 
 
 #Take the input age of 3 people and determine oldest and youngest among them.
+print("Take the input age of 3 people and determine oldest and youngest among them.\n")
+print("please enter the different age for every person as this algorithm cann't solve the problem correctly if two or all the person have same age\n")
 p1_age=int(input("enter the age of first person="))
 p2_age=int(input("enter the age of second person="))
 p3_age=int(input("enter the age of third person="))
@@ -58,6 +62,7 @@ print("\n******************\n")
 
 
 #Write an if statement to lets competitor know which of these prizes they won.
+print("Write an if statement to lets competitor know which of these prizes they won.\n")
 x=int(input("enter your earned points that must be <200  "))
 if x>200:
 	print("you have entered wrong points that is >200 ")
@@ -88,6 +93,7 @@ print("\n******************\n")
 	
 
 #Print total cost after getting discount.
+print("Print total cost after getting discount.\n")
 x=int(input("enter the number of units you want to buy="))
 total_cost=x*100
 print("total cost of your purchasing",total_cost)

@@ -1,4 +1,5 @@
 #create a list with user defined data.
+print("create a list with user defined data.\n")
 x=int(input("enter 0th element of list of integer type"))
 y=int(input("enter 1st element of list of integer type"))
 z=float(input("enter the 2nd element of list of float type"))
@@ -11,6 +12,7 @@ print("\n**********************\n")
 
 
 #add a given list to above created list.
+print("add a given list to above created list.\n")
 list2=['google','apple','facebook','microsoft','tesla']
 mergedlist=list1+list2
 print("the mergedlist is\n",mergedlist)
@@ -18,6 +20,7 @@ print("\n**********************\n")
 	
 		
 #count the number of time an object occurs in a list.
+print("count the number of time an object occurs in a list.\n")
 list=[1,2,3,2,3,'x',4,4,5,3,4,'x',4,5,7,9]
 print(list)
 print("how many time 1 occurs in above list=",list.count(1))
@@ -29,6 +32,7 @@ print("\n**********************\n")
 
 
 #create a list of numbers and sort them in ascending order.
+print("create a list of numbers and sort them in ascending order.\n")
 a=int(input("enter 0th element of list"))
 b=int(input("enter 1st element of list"))
 c=int(input("enter the 2nd element of list"))
@@ -45,6 +49,7 @@ print("\n**********************\n")
 
 
 #Add two sorted lists A & B and the resulted list must be in ascending oredr.
+print("Add two sorted lists A & B and the resulted list must be in ascending oredr.\n")
 list4=[1,4,6,7,9,10,15]
 list5=[0,2,3,6,8,13,18]
 print(list4)
@@ -57,6 +62,7 @@ print("\n**********************\n")
 
 
 #implement a stack and queue using lists.
+print("implement a stack and queue using lists.\n")
 list7=['ajay',115,295,'yogi']
 print("\n operations of stack")
 print("stack principle is 'last in-first out'\n")
@@ -85,7 +91,8 @@ list8.pop()
 print(list8)		
 print("\n**********************\n")
 
-#Question. count even and odd number in that list
+#Question. count even and odd number in that list.
+print("Question. count even and odd number in that list.\n")
 list9=[2,7,3,6,9,3,8,18,37,49]
 even=0
 odd=0

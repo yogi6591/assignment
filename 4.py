@@ -1,4 +1,5 @@
 #create a list with user defined data.
+print("create a list with user defined data.\n")
 x=int(input("enter 0th element of list of integer type"))
 y=int(input("enter 1st element of list of integer type"))
 z=float(input("enter the 2nd element of list of float type"))
@@ -11,6 +12,7 @@ print("length of list=",len(T))
 print("\n**********************\n")
 
 #find largest and smallest element in tuple.
+print("find largest and smallest element in tuple.\n")
 n=int(input("enter the total number of elements you want to insert in tuple"))
 i=0
 t1=[]
@@ -25,6 +27,7 @@ print("\n**********************\n")
 
 
 #wap to find the product of all elements of tuple.
+print("wap to find the product of all elements of tuple.\n")
 t2=(2,3,4,5,6,2,3,5)
 i=0
 p=1
@@ -36,6 +39,8 @@ print("\n**********************\n")
 
 
 #creation of sets and perform the operations on it.
+print("creation of sets and perform the operations on it.\n")
+print("enter the elements of first set----")
 num1=int(input("enter the 1st element"))
 num2=int(input("enter the 2nd element"))
 num3=int(input("enter the 3rd element"))
@@ -43,13 +48,16 @@ num4=int(input("enter the 4th element"))
 num5=int(input("enter the 5th element"))
 num6=int(input("enter the 6th element"))
 set1=set([num1,num2,num3,num4,num5,num6])
+print("the elements of first set are")
 print(set1)
+print("\nenter the elements of second set----")
 n1=int(input("enter the 1st element"))
 n2=int(input("enter the 2nd element"))
 n3=int(input("enter the 3rd element"))
 n4=int(input("enter the 4th element"))
 n5=int(input("enter the 5th element"))
 n6=int(input("enter the 6th element"))
+print("the elements of second set are")
 set2=set([n1,n2,n3,n4,n5,n6])
 print(set2)
 print("the difference between the sets\n",set1-set2)
@@ -64,6 +72,7 @@ print("\n**********************\n")
 
 
 #create a dictionary to store name and marks of 10 students by user input.
+print("create a dictionary to store name and marks of 10 students by user input.\n")
 dict={}
 for i in range(1,11):
 	x=input("enter name of student")
@@ -74,6 +83,7 @@ print("\n**********************\n")
 
 
 #sort the dictionary created in previous question according to marks.
+print("sort the dictionary created in previous question according to marks.\n")
 list1=list(dict)
 list1.sort()
 print(list1)
@@ -84,6 +94,7 @@ print("\n**********************\n")
 count the number of occurence of each letter in word "MISSISSIPPI".
 store count of every letter with the letter in a dictionary.
  '''
+print("count the number of occurence of each letter in word /*MISSISSIPPI*/.store count of every letter with the letter in a dictionary.\n")
 list2=list("mississippi")
 dict1={}
 dict1['m']=list2.count('m')

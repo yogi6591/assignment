@@ -14,23 +14,35 @@ t=Tiger()
 t.animal_attribute()
 print("\n***********************************\n")
 
+
+
 #What will be the output of the code
-print("What will be the output of the code")
-class A:
-    def f(self):
-        return self.g()
+# print("What will be the output of the code")
+# class A:
+#     def f(self):
+#         return self.g()
+#
+#     def g(self):
+#         return 'A'
+#
+# class B(A):
+#     def g(self):
+#         return 'B'
+#
+# a=A()
+# b=B()
+# print(a.f(),b.f())
 
-    def g(self):
-        return 'A'
 
-class B(A):
-    def g(self):
-        return 'B'
 
-a=A()
-b=B()
-print(a.f(),b.f())
+
+print("output of this code---")
+print("A  B")
+
 print("\n***********************************\n")
+
+
+
 
 
 #Create a class Cop. Initialize its name, age , work experience and designation. Define methods to add, display and update the following details. Create another class Mission which extends the class Cop. Define method add_mission _details. Select an object of Cop and access methods of base class to get information for a particular cop and make it available for mission.

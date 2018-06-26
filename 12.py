@@ -16,6 +16,10 @@ Access Tokens are issued via Auth0's OAuth 2.0 endpoints: /authorize and /oauth/
 library to obtain Access Tokens. If you do not already have a preferred OAuth 2.0 library, Auth0 provides libraries for many 
 languages and frameworks that work seamlessly with our endpoints.
 
+print("\n*******************************\n")
+
+
+
 #ques2-
 print("Get the IP address of some common sites like Google, Facebook by using DNS lookup.\n")
 
@@ -47,19 +51,21 @@ Name:    twitter.com
 Addresses:  104.244.42.65
           104.244.42.193
 
-		  
-		  
+print("\n*******************************\n")
+ 
+
+ 
 #ques-3
 print("Using Tweepy library try to extract tweets from Twitter.\n")
 
 
 import tweepy
 
-consumer_key="Pqq8YLHx7pqttSmRT7ELHw7WR"
-consumer_secret="n4eyt60QOpUuofNykxD6kvrmq1GwM9Q72Y65hHBsfOS6ZD7a7A"
+consumer_key="Pqbhjbhjuiouo98098RThgiuhuk7ELHw7WR"
+consumer_secret="n4eyt60pUuofNykxD6kvrmq1tyutuQ72Y65hHBsfOS6ZD7a7A"
 
-access_token="897094313330434048-Tkl2xp3MolrChfKSZ4i6HjEAr8xijRy"
-access_token_secret="wA5I7HuCfe0e4lRVDXCVoZ6YGKVaplkA8eSpwOeLGySfK"
+access_token="89709431334048-Tkl2xp3MolrChfKSZ4i6HjEAr8xijRy"
+access_token_secret="wA5I7Hu8y87yijkj0e4lRVDiyiuu878kA8eSpwOeLGySfK"
 auth=tweepy.OAuthHandler(consumer_key,consumer_secret)
 auth.set_access_token(access_token,access_token_secret)
 
@@ -73,8 +79,9 @@ for tweet in tweets:
 	print("________________________")
 
 print("\n*******************************\n")
-	
-	
+
+
+
 #ques-4
 print("What is a difference between library and API . Figure it out with examples.\n")
 A library is a collection of functions / objects that serves one particular purpose. you could use a library in a variety of 

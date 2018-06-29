@@ -17,8 +17,9 @@ list2=['google','apple','facebook','microsoft','tesla']
 mergedlist=list1+list2
 print("the mergedlist is\n",mergedlist)
 print("\n**********************\n")
-	
-		
+
+
+
 #count the number of time an object occurs in a list.
 print("count the number of time an object occurs in a list.\n")
 list=[1,2,3,2,3,'x',4,4,5,3,4,'x',4,5,7,9]
